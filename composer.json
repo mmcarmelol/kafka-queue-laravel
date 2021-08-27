@@ -1,0 +1,13 @@
+{
+    "name": "luiscarmelo/kafka-cluster-package",
+    "description": "Kafka cluster queue package",
+    "require": {
+        "laravel/framework": "^8.57"
+    },
+    "authors": [
+        {
+            "name": "Luis Carmelo",
+            "email": "71030684+mmcarmelol@users.noreply.github.com"
+        }
+    ]
+}
