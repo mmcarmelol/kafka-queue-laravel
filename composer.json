@@ -1,5 +1,6 @@
 {
     "name": "luiscarmelo/kafka-cluster-package",
+    "version":"1.0.0",
     "description": "Kafka cluster queue package",
     "require": {
         "laravel/framework": "^8.57"
@@ -9,5 +10,10 @@
             "name": "Luis Carmelo",
             "email": "71030684+mmcarmelol@users.noreply.github.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "luiscarmelo/kafka-cluster-package\\": "/src/"
+        }
+    }
 }
